@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Hangman Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="game-container-outer">
+        <h1>Hangman - Guess the Car </h1>
+        <div class="mode-selection">
+            <button class="single-player">Single Player</button>
+            <button class="two-player">Two Player</button>
+        </div>
+
+        <div class="game-container" class="hidden">
+            <div class="word-to-guess">
+                <p>Word: <span class="word-display"></span></p>
+            </div>
+            <div class="word-for-hint">
+                <p>Hint: <span class="word-hint"></span></p>
+            </div>
+            <div class="remaining-attempts">
+                <p>Remaining Attempts: <span class="guesses-left">6</span></p>
+            </div>
+
+            <div class="alphabet-container">
+                
+            </div>
+            <div class="winner-display"></div>
+            <div class="message"></div>
+            <div class="session"></div>
+            <button class="continue-game" >Continue</button>
+            <button class="change-player-selection" >Change Player Selection</button>
+            <button class="restart-session" >Clear Session</button>
+            <div class="parent-container">
+            <div class="footer-container">
+                <div class="car"><img src="https://img.icons8.com/color/100/car.png" alt="Car 1"></div>
+                <div class="car"><img src="https://img.icons8.com/color/100/suv.png" alt="Car 2"></div>
+                <div class="car"><img src="https://img.icons8.com/color/100/sedan.png" alt="Car 3"></div>
+                <div class="car"><img src="https://img.icons8.com/color/100/convertible.png" alt="Car 5"></div>
+            </div></div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
